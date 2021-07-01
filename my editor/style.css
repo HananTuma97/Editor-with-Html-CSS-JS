@@ -1,0 +1,50 @@
+nav img{
+    max-width: 65px;
+    max-height: 65px;
+    object-fit: scale-down;
+    border-radius: 50%;
+}
+
+ main{
+ text-align: center;
+ 
+ }
+
+#code{
+ width: 98%;
+ min-height: 290px;
+ border-radius: 14px;
+ border: 2px solid rgb(56, 54, 54);
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#buttons button{
+    width: 47%;
+    border-radius: 12px;
+    border: 0px;
+    padding: 12px;
+}
+
+#remove{
+    background-color: hotpink;
+    color: white;
+}
+
+#run{
+    background-color: lightslategrey;
+    color:white;
+}
+
+#result-title{
+    padding: 10px;
+    border-bottom: 2px solid rgb(56, 54, 54);
+    margin: 8px 0px;
+    font-weight: bold;
+}
+#result{
+    max-width: 100% !important;
+}
